@@ -28,48 +28,17 @@ The model is trained on a dataset of online payment transactions. It uses variou
 - Scikit-learn 🤖
 - Matplotlib & Seaborn 📈
 
-## 🚀 How to Run the Project
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Samranjith2/Online_payment_fraud_detection_website.git
-   cd Online_payment_fraud_detection_website
 
-2.Install the required packages It's recommended to use a virtual environment.
-
-pip install -r requirements.txt
-
-3.Run the Streamlit app
-
-streamlit run app.py
-
-4.Access the web app
-
-Open your browser and go to: http://localhost:8501
-
-##📂 Project Structure
-
-Online_payment_fraud_detection_website/
-│
-├── app.py                      # Streamlit web app
-├── fraud_detection_model.pkl   # Trained ML model
-├── preprocessing.py            # Data preprocessing script
-├── utils.py                    # Utility functions
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
-
-##📊 Dataset
+## 📊 Dataset
 The dataset used for this project includes anonymized records of online payment transactions. Each record contains:
 
-Transaction ID
+	•	Transaction ID
+	•	Transaction Amount
+	•	Timestamp
+	•	Location
+	•	User ID
 
-Transaction Amount
-
-Timestamp
-
-Location
-
-User ID
 
 Class Label (Fraud/Not Fraud)
 
